@@ -1,0 +1,39 @@
+.page-inner,
+.page__content {
+  max-width: 100vw;
+}
+
+.page__content {
+  width: 100vw;
+}
+
+.page .fab-top-down {
+  right: 16px;
+}
+
+.page .bottom-nav {
+  max-width: 100vw;
+  width: 100vw;
+}
+
+.offcanvas {
+  max-width: 100vw;
+}
+
+.admin-banner,
+.swiper-slide img {
+  width: 100vw;
+}
+
+.main-view img {
+  width: 100vw;
+}
+
+.product-section--slide .swiper-slide {
+  width: 25% !important;
+}
+
+:where(.thumb-LIST) .thumb-item__media {
+  width: 25%;
+  height: 25%;
+}

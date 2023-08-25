@@ -1,0 +1,16 @@
+.page__content {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.page-inner {
+  max-width: 100%;
+}
+
+/* 상품 섹션 영역 var(--pc-width) 로 너비 고정 */
+/* footer 영역 var(--pc-width) 로 너비 고정 */
+.pc-content-width {
+  width: var(--pc-width);
+  margin: var(--gap) auto;
+}

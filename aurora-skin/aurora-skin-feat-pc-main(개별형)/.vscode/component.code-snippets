@@ -1,0 +1,20 @@
+{
+  "React Default Component": {
+    "prefix": "rdc",
+    "body": [
+      "",
+      "const ${TM_FILENAME_BASE} = (props) => {",
+      "  return (",
+      "    <div>",
+      "      $2",
+      "    </div>",
+      "  )",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};",
+      "",
+      ""
+    ],
+    "description": "component"
+  }
+}

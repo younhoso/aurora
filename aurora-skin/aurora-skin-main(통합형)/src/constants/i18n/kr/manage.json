@@ -1,0 +1,11 @@
+{
+  "roadName + buildingNumber, buildingName, lotNumber": "도로명 + 건물번호, 건물명, 지번",
+  "Integrated search is possible for road name, building name, and lot number.": "도로명, 건물명, 지번에 대해 통합검색이 가능합니다.",
+  "Search like this.": "이렇게 검색해보세요.",
+  "roadName + buildingNumber": "도로명 + 건물번호",
+  "example: 9, World Cup-ro 10-gil": "예: 월드컵로 10길 9",
+  "areaName + affix + lotNumber": "지역명 + (동/읍/면/리) + 지번",
+  "example: Seogyo-dong 476-25": "예: 서교동 476-25",
+  "buildingName(apartmentName)": "건물명(아파트명)",
+  "example: Banpo Xi Apartment": "예: 반포자이아파트"
+}

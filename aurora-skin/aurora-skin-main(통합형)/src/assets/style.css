@@ -1,0 +1,21 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --whole-color: #fff;
+  --point-color: #f92626;
+  --point-color-secondary: #2869f7;
+  --black-color: #111;
+  --dark-gray-color: #262626;
+
+  --empty-color: #f5f6f8;
+  --default-color: #ddd;
+  --blue-gray-color: #3f434c;
+  --gray-color: #999;
+  --gray-font-color: #828282;
+  --tooltip-bg-color: #f7f7f7;
+
+  --default-font-color: #181818;
+}
+
+@import './styles/_layout.css';

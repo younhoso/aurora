@@ -1,0 +1,44 @@
+:root {
+  /* color */
+  --section-background-color: #f4f4f4;
+
+  /* size */
+  --pc-width: 1200px;
+  --middle-width: calc((100% - var(--pc-width)) / 2);
+
+  /* gap */
+  --small-gap: 20px;
+  --semi-small-gap: 24px;
+  --gap: 40px;
+  --large-gap: 120px;
+
+  /* font-size */
+  --small: 0.8rem;
+  --normal: 1rem;
+  --semi-large: 1.2rem;
+  --large: 2rem;
+
+  /* width */
+  --four-tiered-width: calc(96% / 4);
+  --four-tiered-width-gap: calc(4% / 3);
+}
+
+@import './styles/_common.css';
+@import './styles/_layout.css';
+@import './styles/_header.css';
+@import './styles/_nav.css';
+@import './styles/_banner.css';
+@import './styles/_product-section.css';
+@import './styles/_footer.css';
+
+.prevent-scroll {
+  overflow-y: auto;
+}
+
+.portal {
+  z-index: 15;
+}
+
+.portal .dim {
+  background-color: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,20 @@
+{
+  /////////////////////////////
+  // ESLint
+  "eslint.validate": ["html", "javascript", "javascriptreact"],
+  "eslint.alwaysShowStatus": true,
+
+  /////////////////////////////
+  // Prettier
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": ["dompurify", "insta", "shopby", "slidersperview", "SSID", "swiper", "Swiper", "testid"],
+
+  "markdownlint.config": {
+    "default": true,
+    "MD007": { "indent": 4 }
+  }
+}

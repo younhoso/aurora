@@ -1,0 +1,32 @@
+/* 배너 레이아웃 */
+/* 상하단 배너 이미지 중앙 정렬 */
+.banner-image img {
+  display: block;
+  margin: auto;
+}
+
+/* 움직이는 상단 배너 중앙 정렬 */
+.hero .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 배너 이미지로 영역 구분 */
+.banner-image {
+  display: block;
+  background-color: var(--section-background-color);
+}
+
+.banner-image:not(.full-width-img) {
+  padding: var(--gap) 0;
+}
+
+/* 2단 배너 */
+.two-tiered-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--pc-width);
+  margin: auto;
+}

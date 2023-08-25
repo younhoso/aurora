@@ -1,0 +1,122 @@
+/* 상품섹션 상하간격 */
+.product-section {
+  margin: var(--large-gap) auto;
+}
+
+/* 신규 상품과 같이 슬라이드 형태인 경우 다른 섹션과 다르게 크기가 매우 작아짐. */
+.swiper-slide {
+  width: 25% !important;
+}
+
+.thumb-item-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+:where(.thumb-GALLERY, .thumb-CART, .thumb-SIMPLE_IMAGE) .thumb-item,
+:where(.thumb-LIST) .thumb-item__media {
+  width: var(--four-tiered-width);
+}
+
+:where(.thumb-LIST) .thumb-item__media {
+  height: auto;
+}
+
+.product-section__title {
+  margin: 12px 0;
+  font-size: var(--large);
+  font-weight: 500;
+  display: inline-block;
+  padding: 0;
+}
+
+.product-section__description {
+  color: #7d7d7d;
+  font-size: var(--normal);
+  margin-top: var(--large-gap);
+}
+
+/* 하트 + 장바구니 영역 기본 사이즈 제거 */
+.thumb-fab--like {
+  width: auto;
+  border: none;
+}
+
+/* 상품섹션 리스트에서 정보 중앙정렬 */
+.thumb-item__info {
+  margin: auto;
+}
+
+/* 상품 랭킹 탭 스타일 */
+.product-section .tabs {
+  margin: 20px 0 38px;
+  font-size: 1.4rem;
+}
+
+.tabs__item {
+  border-bottom: 4px solid var(--default-color);
+}
+
+.tabs__item.on {
+  border-bottom: 4px solid var(--point-color);
+}
+
+/* 랭킹 스타일 */
+.ranking {
+  padding: 0;
+  justify-content: flex-start;
+  gap: var(--four-tiered-width-gap);
+}
+
+/* 상품섹션이 slide(move)타입인 경우 */
+.main-slide .swiper-slide {
+  /* 많은 상품을 보이기위해 다른 상품 사이즈 보다 작게 설정함 */
+  width: 14% !important;
+}
+
+.main-slide {
+  position: relative;
+  height: 100%;
+}
+
+.main-slide::before,
+.main-slide::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  width: var(--middle-width);
+  height: inherit;
+  background-image: linear-gradient(270deg, hsla(0, 0%, 100%, 0.5) 94%, transparent);
+  z-index: 5;
+}
+
+.main-slide::before {
+  left: 0;
+}
+
+.main-slide::after {
+  right: 0;
+}
+
+.main-slide .swiper-button-prev,
+.main-slide .swiper-button-next {
+  background-color: var(--blue-gray-color);
+  padding: 22px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.main-slide .swiper-button-prev::after,
+.main-slide .swiper-button-next::after {
+  font-size: var(--normal);
+}
+
+.main-slide .swiper-button-prev {
+  left: var(--middle-width);
+  padding-left: 21px;
+}
+
+.main-slide .swiper-button-next {
+  right: var(--middle-width);
+  padding-right: 21px;
+}

@@ -1,0 +1,12 @@
+{
+  "phoneNumber": "전화번호",
+  "mobilePhoneNumber": "휴대폰 번호",
+  "email": "이메일",
+  "directInput": "직접입력",
+  "address": "주소",
+  "searchAddress": "주소찾기",
+  "allSearchResult": "전체 검색 결과",
+  "No results were found for your search. Please search again.": "검색결과가 없습니다. 다시 검색해주세요.",
+  "password": "비밀번호",
+  "passwordForConfirmation": "비밀번호 확인"
+}

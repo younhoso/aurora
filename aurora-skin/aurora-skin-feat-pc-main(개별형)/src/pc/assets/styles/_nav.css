@@ -1,0 +1,39 @@
+/* header 에 있는 카테고리 네비게이션 */
+.nav {
+  width: 58%;
+  position: relative;
+  font-size: var(--normal);
+}
+
+.nav__category {
+  width: 90%;
+}
+
+.nav__swiper-button {
+  position: absolute;
+  margin: auto;
+  cursor: pointer;
+}
+
+.nav__swiper-button--prev {
+  left: 4px;
+  right: auto;
+  bottom: 50%;
+  transform: scaleX(-1) translate(0, 50%);
+}
+
+.nav__swiper-button--next {
+  top: 50%;
+  left: auto;
+  right: 4px;
+  transform: translate(0, -50%);
+}
+
+.nav__link.is-active {
+  color: var(--gray-font-color);
+  font-weight: 400;
+}
+
+.nav__link.is-active::after {
+  content: none;
+}

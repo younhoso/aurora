@@ -1,0 +1,53 @@
+header {
+  position: sticky;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: var(--gap);
+  background: var(--whole-color);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+/* 헤더 너비 var(--pc-width) 로 고정 */
+.header-nav {
+  display: flex;
+  justify-content: end;
+  width: var(--pc-width);
+  margin: 20px auto;
+  gap: 36px;
+  font-size: var(--normal);
+}
+
+/* 헤더 상단 스타일 */
+.header-nav__cart-count {
+  display: inline-block;
+  width: 1.3rem;
+  margin-top: -3px;
+  padding: 3px 0;
+  border-radius: 50%;
+  background-color: var(--point-color);
+  color: var(--whole-color);
+  text-align: center;
+  vertical-align: top;
+}
+
+/* Header 컴포넌트 */
+.header {
+  justify-content: space-around;
+  width: var(--pc-width);
+  margin: auto;
+}
+
+.header__title {
+  margin: 0;
+  max-width: 200px;
+}
+
+.header .search-field {
+  width: 20%;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.header .text-field {
+  border: none;
+}

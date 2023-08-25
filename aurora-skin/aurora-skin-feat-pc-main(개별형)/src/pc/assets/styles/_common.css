@@ -1,0 +1,26 @@
+/* 오로라에서 사용하는 폰트 리셋 */
+body {
+  font-size: initial;
+  font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+}
+
+/* 이미지 width 100% 설정 */
+.full-width-img {
+  width: 100%;
+}
+
+.go-icon {
+  display: inline-block;
+  margin: 12px 0 0 10px;
+  border-radius: 50%;
+  vertical-align: top;
+  width: 35px;
+  height: 35px;
+  background-color: #3f444c;
+  color: #fff;
+  font-weight: 600;
+  font-size: var(--normal);
+  text-align: center;
+  line-height: 35px;
+  transform: rotate(-15deg);
+}
